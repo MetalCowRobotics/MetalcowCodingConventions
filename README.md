@@ -26,3 +26,22 @@ This repository consists of all the coding conventions and practices that the co
 &emsp;- **Autos Folder**  
 &emsp;&emsp; 1. Consists of all the autonomous commands that can be used in the autonomous period (Accesses the subsystems to make commands).  
 &emsp;&emsp; 2. Used with Pathplanner to perform actions such as arm movement. 
+
+### Naming Variables  
+&emsp; 1. All variables must be named using ***camelCase***(start with a lowercase letter and capitalize the second word of the variable with  
+&emsp;&emsp;no spaces. Ex. "intakeMotor").  
+&emsp; 2. Do not add any prefixes to the variables such as "m_" or "s_".  
+&emsp; 3. All variables in the subsystems and Robot.java must be declared as private variables.  
+&emsp; 4. All variables in **Constants.java** must be declared public and final.
+
+### Naming Classes  
+&emsp; 1. All classes must be named using ***PascalCase***(camel case but also capitalize the first letter).  
+&emsp; 2. All classes must be declared public.  
+
+### Naming Methods  
+&emsp; 1. All methods must also be named using ***camelCase***.  
+&emsp; 2. Constructors of all the subsystems should be declared private.  
+
+### Writing Comments
+&emsp; 1. Recommended to write short comments describing every method in a subsystem.  
+&emsp; 2. All comments are recommended not to be more than one line.
