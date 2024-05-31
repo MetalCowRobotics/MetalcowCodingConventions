@@ -44,4 +44,5 @@ This repository consists of all the coding conventions and practices that the co
 
 ### Writing Comments
 &emsp; 1. Recommended to write short comments describing every method in a subsystem.  
-&emsp; 2. All comments are recommended not to be more than one line.
+&emsp; 2. One multiline comment to mention the purpose of the java file or the restrictions on its use.  
+&emsp; 3. All comments are recommended not to be more than one line.
