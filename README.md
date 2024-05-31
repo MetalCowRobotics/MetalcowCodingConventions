@@ -28,11 +28,10 @@ This repository consists of all the coding conventions and practices that the co
 &emsp;&emsp; 2. Used with Pathplanner to perform actions such as arm movement. 
 
 ### Naming Variables  
-&emsp; 1. All variables must be named using ***camelCase***(start with a lowercase letter and capitalize the second word of the variable with  
-&emsp;&emsp;no spaces. Ex. "intakeMotor").  
+&emsp; 1. All **non-constant** variables must be named using ***camelCase***(start with a lowercase letter and capitalize the second word of the variable with no spaces. Ex. "intakeMotor").  
 &emsp; 2. Do not add any prefixes to the variables such as "m_" or "s_".  
 &emsp; 3. All variables in the subsystems and Robot.java must be declared as private variables.  
-&emsp; 4. All variables in **Constants.java** must be declared public and final.
+&emsp; 4. All variables in **Constants.java** must be declared public and final. Also, all the variables should be uppercase seperated by underscores.
 
 ### Naming Classes  
 &emsp; 1. All classes must be named using ***PascalCase***(camel case but also capitalize the first letter).  
